@@ -1,0 +1,30 @@
+body { 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+video { 
+    width: 100%; 
+    height: auto; 
+    border: 2px solid black; 
+    margin-top: 20px;
+}
+canvas { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: auto; 
+    pointer-events: none;  /* Prevent canvas from interfering with the video */
+}
+h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+h2 {
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+}
